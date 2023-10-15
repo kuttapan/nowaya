@@ -1,0 +1,12 @@
+#home {
+    background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1163129828153774140/home.png?ex=653e7410&is=652bff10&hm=895686ab144da7b66a4a1056a5b399a9bfacd8c83cf85cb5c72c7e8f17937098&')!important;
+}
+
+@media only screen and (max-width: 876px) {
+    #home {
+        background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1163134622566199416/Picsart_23-10-15_20-52-04-315.jpg?ex=653e7888&is=652c0388&hm=e67ff9bd1028b6f737dfcb0e84ba13ac67dc3602d64e12dafa60000a7d515e4f&')!important;
+    }
+  }
+  .row {
+    margin: 10px !important;
+  }
