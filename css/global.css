@@ -1,12 +1,24 @@
 #home {
-    background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1163129828153774140/home.png?ex=653e7410&is=652bff10&hm=895686ab144da7b66a4a1056a5b399a9bfacd8c83cf85cb5c72c7e8f17937098&')!important;
+    background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1280252263084068925/home.png?ex=66d76755&is=66d615d5&hm=974cf6fb3a016d0695c5de33a5cff9eb6974b359cc7f98d0fc033b9e9f622195&')!important;
 }
 
-@media only screen and (max-width: 876px) {
+
+  @media only screen and (max-width: 768px){
     #home {
-        background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1280252263084068925/home.png?ex=66d76755&is=66d615d5&hm=974cf6fb3a016d0695c5de33a5cff9eb6974b359cc7f98d0fc033b9e9f622195&')!important;
-    }
+      background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1163133934805188678/Picsart_23-10-15_20-49-20-787.jpg?ex=66d728e4&is=66d5d764&hm=fe8ced6f2a1c8f69563be9e78992b0de110965bf837cbe2490beef4e914e11c9&')!important;
   }
+}
+  @media only screen and (min-width: 769px) and (max-width:991px){
+    #home {
+      background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1163131921841275000/WhatsApp_Image_2023-09-11_at_11.15.57_PM.jpeg?ex=66d72704&is=66d5d584&hm=41ea9b88d797d342490e26ec4b247574199904b67c90918dff5fef234b28432b&')!important;
+  }
+  }
+  @media only screen and (min-width: 992px) and (max-width:1450px){
+    #home {
+      background-image: url('https://cdn.discordapp.com/attachments/972957443753652246/1163131922428473525/WhatsApp_Image_2023-09-11_at_11.23.10_PM.jpeg?ex=66d72704&is=66d5d584&hm=6adc46f2a434b7a5f5bce442d7a03a0d87d38c801abd0a23d63dbf58a9c58906&')!important;
+  }
+  }
+
   .row {
     margin: 10px !important;
   }
