@@ -10,6 +10,22 @@
       background-repeat: no-repeat;
       background-image: url('img/home.png'); 
     }
+    .github-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.github-logo img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.github-logo img:hover {
+  transform: scale(1.1);
+}
+
     
     /* For width 400px and larger: */
     @media only screen and (min-width: 400px) {
@@ -75,7 +91,9 @@
       <!-- Navbar menu-->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#resume"></a></li>
+        <a href="https://github.com/abin-karukappallil" target="_blank" class="github-logo">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="40" height="40">
+</a>
       </ul>
     </div> 
   </nav>
